@@ -1,0 +1,64 @@
+body{
+    background-color: #3C475B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 70%;
+}
+.navbar li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px;
+
+    transition: 2s;
+    font-size: 14px;
+}
+.navbar li a:hover{
+    color: #FFC03D;
+}
+.header h3{
+    font-size:24px;
+    color: #FFC03D;
+    margin: 150px 60px;
+}
+.highlight h1{
+    font-size: 72px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    margin-left: 60px;
+    margin-top: -150px;
+}
+.text p{
+    color: whitesmoke;
+    margin-left: 65px;
+    margin-top: -40px;
+}
+.ourservice {
+    color: whitesmoke;
+    margin-left: 65px;
+    margin-top: 50px;
+    text-decoration: none;
+    border: solid 2px whitesmoke;
+    padding: 12px;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.ourservice:hover{
+    background-color: #FFC03D;
+    color: #3C475B;
+    border: none;
+    padding: 14px;
+}
+.contactus{
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 180px;
+    border: 2px solid whitesmoke;
+    padding: 12px;
+    text-transform: uppercase;
+    transition: 1s;
+}
